@@ -1,0 +1,38 @@
+<div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.4s">
+  <div class="card-wrapper">
+    <div id="{{ .card_id }}" class="card-rotating effect__click">
+      <div class="face front">
+        <div class="card-up">
+          <img src="{{ .bgimage }}" />
+        </div>
+        <div class="avatar"><img src="{{ .author_image }}" class="img-circle img-responsive">
+        </div>
+        <div class="card-block">
+          <a href="authors.html#best-features">
+            <h4>{{ .author_name }}</h4></a>
+          <p>{{ .author_profession }}</p>
+          <a class="rotate-btn" data-card="{{ .card_id }}"><i class="fa fa-repeat"></i> Click here to rotate</a>
+        </div>
+      </div>
+      <div class="face back">
+        <h4>About me</h4>
+        <hr>
+        <p>{{ .about_author }}
+        </p>
+        <hr>
+        <ul class="inline-ul">
+          <li>
+            <a href="{{ .fb_link }}" target="_blank" class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href=" {{ .twitter_link }}" target="_blank" class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
+          </li>
+          <li>
+            <a href="{{ .linkdin_link }}" target="_blank" class="icons-sm ins-ic"><i class="fa fa-linkedin"> </i></a>
+          </li>
+        </ul>
+        <a class="rotate-btn" data-card="{{ .card_id }}"><i class="fa fa-undo"></i> Click here to rotate back</a>
+      </div>
+    </div>
+  </div>
+</div>

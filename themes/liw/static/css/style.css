@@ -1,0 +1,179 @@
+.bookWrap {
+	margin-bottom: 20em;
+	margin-top:7em;
+	height:260px;
+	width:230px;
+
+	position:relative;
+
+	-webkit-perspective: 1200px;
+	   -moz-perspective: 1200px;
+	        perspective: 1200px;
+}
+
+.book {
+	background:#0d0e0e;
+	height:261px;
+	width:230px;
+	position:absolute;
+	left:16px;
+	top:0;
+
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+
+	-webkit-transition: -webkit-transform .5s ease 0s;
+	   -moz-transition: -moz-transform .5s ease 0s;
+	        transition: transform .5s ease 0s;
+
+	-webkit-border-radius: 0 7px 7px 0;
+	   -moz-border-radius: 0 7px 7px 0;
+	        border-radius: 0 7px 7px 0;
+
+	-webkit-perspective: 1200px;
+	   -moz-perspective: 1200px;
+	        perspective: 1200px;
+}
+
+.bookIntro {
+	-webkit-transform: rotateY(30deg);
+     -moz-transform: rotateY(30deg);
+	        transform: rotateY(30deg);
+}
+.flip-container {
+	perspective: 1000px;
+  padding-top: 20%;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.3s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+.cover {
+	position:absolute;
+	left:0;
+	top:0;
+
+	height: 100%;
+	width: 230px;
+
+	max-width: 230px;
+	max-height: 346px;
+
+	-webkit-backface-visibility: hidden;
+	   -moz-backface-visibility: hidden;
+	        backface-visibility: hidden;
+
+	-webkit-border-radius: 0 4px 4px 0;
+	   -moz-border-radius: 0 4px 4px 0;
+	        border-radius: 0 4px 4px 0;
+
+	-webkit-transition: -webkit-transform .5s ease 0s, width .5s ease 0s;
+	   -moz-transition: -moz-transform .5s ease 0s, width .5s ease 0s;
+            transition: transform .5s ease 0s, width .5s ease 0s;
+
+	-webkit-transform-origin: 0;
+	   -moz-transform-origin: 0;
+	        transform-origin: 0;
+}
+
+.cover:hover {
+	width:210px;
+
+	-webkit-transform: rotateY(-20deg);
+	   -moz-transform: rotateY(-20deg);
+	        transform: rotateY(-20deg);
+}
+
+.spine {
+	background:black;
+	width: 40px;
+	height: 261px;
+	position: absolute;
+	top: 0;
+	left:0;
+
+
+  -webkit-transform: rotateY(90deg);
+	   -moz-transform: rotateY(90deg);
+	        transform: rotateY(90deg);
+
+	-webkit-transform-origin: 0;
+	   -moz-transform-origin: 0;
+	        transform-origin: 0;
+}
+.videotext{
+	color:#c0392b;
+	text-align: center;
+}
+#workshop{
+	margin-top: 7em;
+}
+.widget-wrapper{
+		margin-top: 55px;
+}
+.product-wrapper{
+	margin-top: 40px;
+}
+.magazine-section{
+	margin-left: 25PX;
+	margin-right: 25PX;
+}
+.magazine-section .section-heading{
+	margin-top: 10%;
+}
+#best-features1 .social-section{
+	background-color: transparent;
+
+}
+#best-features1 h1{
+	margin-top: 10%;
+}
+#best-features h1{
+	margin-top: 10%;
+}
+#collapseEx a.active{
+  color: white;
+}
+.gurujada{
+	background-color: rgba(0, 0, 0, 0.2);
+	font-size:12px;
+}
+.gurujada a:hover{
+	color:black;
+}

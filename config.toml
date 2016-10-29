@@ -1,0 +1,45 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Leadership In Wonderland"
+theme = "liw"
+
+[params]
+title = "Leadership In Wonderland"
+ga_id = "UA-85906030-1"
+
+[params.feature.1]
+ bgimage = "http://mdbootstrap.com/images/regular/nature/img%20(55).jpg"
+ author_image = "/images/susanR.jpg"
+ author_name  = "Susan Goldberg"
+ author_profession = "Susan Goldberg Executive Search Consulting"
+ about_author = """Susan Goldberg’s expertise is finding and keeping the best senior-level
+                professionals for her media, entertainment, technology and digital
+                media clients. She’s been hiring and coaching young senior professionals
+                from Gen X through Gen Y and even those who hire them since the
+                1990s. As an expert in the field of Millennial hiring, Susan
+                recognizes how difficult it is to keep this talent at an organization
+                for the long term. Therefore, while searching for the right talent,
+                she is also able to work with the company to create the right
+                environment so that hires will want to stay longer."""
+ fb_link = "https://www.facebook.com/Susan-Goldberg-Executive-Search-Consulting-204379969596361/"
+ twitter_link = "https://twitter.com/suzebizcoach"
+ linkdin_link = "https://www.linkedin.com/company/susan-goldberg-executive-search-consulting"
+ card_id = "card-1"
+
+ [params.feature.2]
+  bgimage = "http://mdbootstrap.com/images/regular/nature/img%20(64).jpg"
+  author_image = "/images/rebecca.jpg"
+  author_name  = "Rebecca Lacy"
+  author_profession = "Pinnacle Management Group"
+  about_author = """Rebecca Lacy has spent her career assisting individuals and organizations
+                 achieve new levels of success. She co-founded her company with
+                 the aim to help create environments where people enjoy working
+                 after having studied thousands of companies and what made the
+                 difference between those that thrived and others that merely
+                 survived. The lessons she learned helped the company develop
+                 a set of tools, which have allowed clients to create workplaces
+                 where innovation and ownership are the norm."""
+  fb_link = "https://www.facebook.com/Pinnacle.Management.Group/"
+  twitter_link = "http://www.womensvoicesmagazine.com/impact-section/extraordinary-ordinary-women/"
+  linkdin_link = "https://www.linkedin.com/in/rebeccalacy"
+  card_id = "card-2"

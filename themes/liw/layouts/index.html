@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "meta.html" }}
+  <link rel="shortcut icon" href="/images/favicon.ico" type="/image/x-icon">
+  {{ partial "css.html" }}
+  <title>{{ .Site.Params.title }}</title>
+</head>
+
+<body>
+  {{ partial "header.html" }}
+  {{ partial "nav.html" . }}
+
+  <main>
+    <div class="container">
+      <hr class="between-sections">
+      {{ partial "about_book.html" }}
+      <hr class="between-sections">
+      {{ partial "authors.html" . }}
+    </div>
+  </main>
+      <hr class="between-sections">
+  {{ partial "contact.html"}}
+  {{ partial "footer.html" }}
+
+  {{ partial "scripts.html"}}
+  {{ partial "google_analytics.html"}}
+</body>
+
+</html>

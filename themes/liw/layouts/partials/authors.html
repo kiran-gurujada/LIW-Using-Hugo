@@ -1,0 +1,9 @@
+<section class="section" id="our-team">
+  <h1 class="section-heading wow fadeIn" data-wow-delay="0.2s">Our Authors</h1>
+  <br>
+  <div class="row">
+    {{ range .Site.Params.feature }}
+    {{ partial "singlefeature.html" . }}
+    {{ end }}
+  </div>
+</section>
